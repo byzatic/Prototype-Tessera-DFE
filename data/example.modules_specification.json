@@ -1,0 +1,82 @@
+[
+  {
+    "name": "ModuleStorageMerge",
+    "module_main_path": "modules.graphite_application_modules.ModuleStorageMerge.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "ModuleProcessingStatus",
+    "module_main_path": "modules.graphite_application_modules.ModuleProcessingStatus.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "PrometheusGetData",
+    "module_main_path": "modules.graphite_application_modules.PrometheusGetData.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "ModuleLiftingData",
+    "module_main_path": "modules.graphite_application_modules.ModuleLiftingData.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "ModulePrometheusOutput",
+    "module_main_path": "modules.graphite_application_modules.ModulePrometheusOutput.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "ModuleDataConversion",
+    "module_main_path": "modules.graphite_application_modules.ModuleDataConversion.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "ModuleAddGraphPath",
+    "module_main_path": "modules.graphite_application_modules.ModuleAddGraphPath.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  },
+  {
+    "name": "ModuleAddLabel",
+    "module_main_path": "modules.graphite_application_modules.ModuleAddLabel.WorkerMain",
+    "default_options": [
+      {
+        "default_option_name": "NoValueExample",
+        "default_option_value": "NoValueExample"
+      }
+    ]
+  }
+]

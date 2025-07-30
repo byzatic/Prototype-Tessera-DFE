@@ -1,0 +1,19 @@
+PROJECT INFORMATION
+
+-- STORAGES --
+SELF_DATA
+LIFTING_DATA
+PROCESSED_DATA
+POST_PROCESSED_DATA
+NODE_DATA
+NODE_FINAL_DATA
+PROMETHEUS_DATA
+
+-- MODULES --
+PrometheusGetData - v1.0.0
+ModuleProcessingStatus - v1.0.0
+ModuleStorageMerge - v1.0.0
+ModuleLiftingData - v1.0.0
+ModulePrometheusOutput - v1.0.0
+ModuleDataConversion - v1.0.0
+ModuleAddGraphPath - v1.0.0

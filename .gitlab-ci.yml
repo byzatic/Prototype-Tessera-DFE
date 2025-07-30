@@ -1,0 +1,5 @@
+include:
+  # generic-pipeline-a1
+  - project: 'dfkzbt/gitlab-ci-utility'
+    ref: master
+    file: 'gitlab-ci/pipeline/generic-pipeline-a1.yml'

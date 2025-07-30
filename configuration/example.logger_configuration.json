@@ -1,0 +1,297 @@
+{
+   "version":1,
+   "formatters":{
+      "verbose":{
+         "format":"%(asctime)s [%(levelname)s] %(name)s %(message)s",
+         "datefmt":"%Y-%m-%d %H:%M:%S"
+      },
+      "simple":{
+         "format":"%(levelname)s %(message)s"
+      }
+   },
+   "handlers":{
+      "Application-handler":{
+         "class":"logging.handlers.RotatingFileHandler",
+         "formatter":"verbose",
+         "encoding":"utf8",
+         "level":"DEBUG",
+         "filename":"logs/application.log",
+         "maxBytes":52428800,
+         "backupCount":7
+      },
+      "LibByzaticCommon-handler":{
+         "class":"logging.handlers.RotatingFileHandler",
+         "formatter":"verbose",
+         "encoding":"utf8",
+         "level":"DEBUG",
+         "filename":"logs/libbyzaticcommon.log",
+         "maxBytes":52428800,
+         "backupCount":7
+      },
+      "console":{
+         "class":"logging.StreamHandler",
+         "level":"DEBUG",
+         "formatter":"verbose",
+         "stream":"ext://sys.stdout"
+      },
+      "ApiPrometheus-StreamHandler": {
+        "class": "logging.StreamHandler",
+        "stream": "",
+        "formatter": "verbose"
+      }
+   },
+   "loggers":{
+      "Application-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+
+      "LibByzaticCommon-ExitHandler-logger":{
+         "handlers":[
+            "LibByzaticCommon-handler",
+            "console"
+         ],
+         "level":"DEBUG"
+      },
+      "LibByzaticCommon-FileReaders-logger":{
+         "handlers":[
+            "LibByzaticCommon-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "LibByzaticCommon-ImportModulesFactory-logger":{
+         "handlers":[
+            "LibByzaticCommon-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+      "Workers-ModuleStorageMerge-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-ProcessingStatus-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-PrometheusGetData-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-ModuleLiftingData-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-ModulePrometheusOutput-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-ModuleDataConversion-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-ModuleAddGraphPath-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Workers-ModuleAddLabel-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+
+      "Global-logger":{
+         "handlers":[
+            "ApiPrometheus-StreamHandler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Global2p1-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "Global2p2-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+
+      "DaoNodeUnit-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "DaoNodeUnit-NodeIdStorage-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "DaoNodeUnit-NodeUnitStorage-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+      "DaoWorkers-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "DaoWorkersSpecifications-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "DomainService-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "NodeDescriptionManager-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "NodeUnitIterator-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "NodeUnitRepository-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "StorageManager-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+      "WorkersManager-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+      "WorkersManager-PiplineManager-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+
+
+      "WorkersRepository-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+
+      "ServicePrometheus-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+
+      "ApplicationContext-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"ERROR"
+      },
+
+      "InitInfo-logger":{
+         "handlers":[
+            "Application-handler",
+            "console"
+         ],
+         "level":"INFO"
+      },
+
+      "root":{
+         "level":"CRITICAL"
+      }
+   }
+}

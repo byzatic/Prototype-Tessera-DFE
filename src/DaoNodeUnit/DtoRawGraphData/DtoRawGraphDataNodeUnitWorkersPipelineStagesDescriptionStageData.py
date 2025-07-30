@@ -1,0 +1,15 @@
+#
+#
+#
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageDataAbstractDataListUnit import DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageDataAbstractDataListUnit
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageDataConfigurationUnit import DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageDataConfigurationUnit
+from marshmallow import Schema, fields, validate
+from dataclasses import dataclass
+from typing import List, Optional, Union
+
+
+@dataclass
+class DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageData:
+    name: str
+    configuration: List[DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageDataConfigurationUnit]
+    abstract_data_list: List[DtoRawGraphDataNodeUnitWorkersPipelineStagesDescriptionStageDataAbstractDataListUnit]

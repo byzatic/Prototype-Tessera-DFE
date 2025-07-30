@@ -1,0 +1,14 @@
+#
+#
+#
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpaceStorages import DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpaceStorages
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpaceAdditionalServices import DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpaceAdditionalServices
+from marshmallow import Schema, fields, validate
+from dataclasses import dataclass
+from typing import List, Optional, Union
+
+
+@dataclass
+class DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpace:
+    storages: List[DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpaceStorages]
+    additional_services: List[DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpaceAdditionalServices]

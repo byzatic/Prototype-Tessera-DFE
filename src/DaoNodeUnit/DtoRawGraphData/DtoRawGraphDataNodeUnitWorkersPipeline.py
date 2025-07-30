@@ -1,0 +1,16 @@
+#
+#
+#
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesDescription import DtoRawGraphDataNodeUnitWorkersPipelineStagesDescription
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesConsistency import DtoRawGraphDataNodeUnitWorkersPipelineStagesConsistency
+from .DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpace import DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpace
+from marshmallow import Schema, fields, validate
+from dataclasses import dataclass
+from typing import List, Optional, Union
+
+
+@dataclass
+class DtoRawGraphDataNodeUnitWorkersPipeline:
+    global_space: DtoRawGraphDataNodeUnitWorkersPipelineStagesGlobalSpace
+    stages_consistency: List[DtoRawGraphDataNodeUnitWorkersPipelineStagesConsistency]
+    stages_description: List[DtoRawGraphDataNodeUnitWorkersPipelineStagesDescription]

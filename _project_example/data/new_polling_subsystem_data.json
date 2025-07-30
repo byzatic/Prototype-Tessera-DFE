@@ -1,0 +1,680 @@
+[
+  {
+    "server_description": {
+      "url": "http://10.174.18.254:9059/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "filesystem",
+        "query_id": "Status 10.174.18.254 filesystem sda1",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "device",
+            "label_value": "/dev/sda1",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.254",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "filesystem",
+        "query_id": "Status 10.174.18.254 filesystem sda2",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "device",
+            "label_value": "/dev/sda2",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.254",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "filesystem",
+        "query_id": "Status 10.174.18.253 filesystem sda2",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "device",
+            "label_value": "/dev/sda2",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.253",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "filesystem",
+        "query_id": "Status 10.174.18.241 filesystem sda2",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "device",
+            "label_value": "/dev/sda2",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.241",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "filesystem",
+        "query_id": "Status 10.174.18.109 filesystem sda2",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "device",
+            "label_value": "/dev/sda3",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.109",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "cpu",
+        "query_id": "Status 10.174.18.254 cpu",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "mode",
+            "label_value": "idle",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.254",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "cpu",
+        "query_id": "Status 10.174.18.253 cpu",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "mode",
+            "label_value": "idle",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.253",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "cpu",
+        "query_id": "Status 10.174.18.241 cpu",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "mode",
+            "label_value": "idle",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.241",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "cpu",
+        "query_id": "Status 10.174.18.109 cpu",
+        "upper_limit": "90",
+        "lower_limit": "80",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "mode",
+            "label_value": "idle",
+            "label_sign": "="
+          },
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.109",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "availability",
+        "query_id": "Status 195.209.35.26 availability",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "195.209.35.26",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "swap",
+        "query_id": "Status 10.174.18.254 swap",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.254",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "swap",
+        "query_id": "Status 10.174.18.253 swap",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.253",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "swap",
+        "query_id": "Status 10.174.18.241 swap",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.241",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "swap",
+        "query_id": "Status 10.174.18.109 swap",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.109",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "memory",
+        "query_id": "Status 10.174.18.254 ram",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.254",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "memory",
+        "query_id": "Status 10.174.18.253 ram",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.253",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "memory",
+        "query_id": "Status 10.174.18.241 ram",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.241",
+            "label_sign": "="
+          }
+        ]
+      },
+      {
+        "query_type": "memory",
+        "query_id": "Status 10.174.18.109 ram",
+        "upper_limit": "80",
+        "lower_limit": "90",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "host_identity",
+            "label_value": "10.174.18.109",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://uirg.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "installation",
+        "query_id": "Status UIRG installation",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation",
+            "label_value": "uirg-infrastructure",
+            "label_sign": "="
+          },
+          {
+            "label_key": "path",
+            "label_value": "installation",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://dgs.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "installation",
+        "query_id": "Status DGS installation",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation",
+            "label_value": "dgs-infrastructure",
+            "label_sign": "="
+          },
+          {
+            "label_key": "path",
+            "label_value": "installation",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "http://10.174.25.131:6059/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "BPM_MAIN metrics_core_installation 10.174.25.131",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "BPM_MAIN",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "http://10.174.2.141:6059/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "BPM_RESERV metrics_core_installation 10.174.2.141",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "BPM_RESERV",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "http://192.168.13.104:5059/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "PZD metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "PZD",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://prm.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "PRM metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "PRM",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://ing.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "ING metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "ING",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://izh.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "IZH metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "IZH",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://main.telemetric.local:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "VRN metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "VRN",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://vnov.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "VNOV metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "VNOV",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://kzn.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "KZN metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "KZN",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://jok.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "JOK metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "JOK",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "http://79.174.70.107:6059/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "POVERKA metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "POVERKA",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "http://176.99.58:6059/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "metrics_core_installation",
+        "query_id": "TOIR metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "TOIR",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "server_description": {
+      "url": "https://demo1.askug.ru:443/api/monitoringprom/",
+      "ssl_verify": "False"
+    },
+    "query_description": [
+      {
+        "query_type": "installation",
+        "query_id": "DEMO metrics_core_installation sm001",
+        "upper_limit": "None",
+        "lower_limit": "None",
+        "step": "7",
+        "time_range": "9",
+        "labels": [
+          {
+            "label_key": "installation_name",
+            "label_value": "DEMO",
+            "label_sign": "="
+          }
+        ]
+      }
+    ]
+  }
+]
