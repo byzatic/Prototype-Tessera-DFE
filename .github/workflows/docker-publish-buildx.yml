@@ -7,8 +7,8 @@ on:
       - develop
       - master
       - 'issue/**'
-  release:
-    types: [published]
+#  release:
+#    types: [published]
   workflow_dispatch:
 
 env:
