@@ -5,7 +5,7 @@ on:
     branches:
       - sandbox
       - develop
-      - master
+      - main
       - 'issue/**'
 #  release:
 #    types: [published]
